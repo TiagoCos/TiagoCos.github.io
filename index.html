@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seu Nome - Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Tiago Costa Silva</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Dev Icon Fonts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+  <!-- CSS do Projeto -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Seu Nome</h1>
-        <p>Desenvolvedor Web</p>
-    </header>
-    
-    <section id="about">
-        <h2>Sobre Mim</h2>
-        <p>Coloque uma breve descrição sobre você aqui.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projetos</h2>
-        <div class="project">
-            <h3>Projeto 1</h3>
-            <p>Descrição do Projeto 1.</p>
+  <main id="container">
+    <aside id="bio-container">
+  
+      <img id="bio-image" src="./img/foto.png" alt="Tiago Costa Silva">
+      <p>Olá, meu nome é Tiago Costa Silva e sou <span class="highlight">Desenvolvedor </span>.</p>
+      <p id="welcome-text">Seja bem-vindo!</p>
+      <ul id="social-container">
+        <li><a href="https://github.com/TiagoCos" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/in/tiago-costa-silva-5ba974222/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+       
+      </ul>
+      <div id="email-container">
+        <ion-icon name="mail-outline"></ion-icon><a href="mailto:tiagocostasilva27@gmail.com">tiagocostasilva27@gmail.com</a>
+      </div>
+    </aside>
+    <section id="about-container">
+      <h1 id="name">Tiago Costa Silva</h1>
+      <p id="title"><span class="highlight"></span></p>
+      <p class="description">Sou um desenvolvedor iniciante e gosto de fazer projetos e <span class="highlight">resolver problemas</span> usando tecnologias e fundamentos da programação.</p>
+      <p class="description"> Sou formado em <span class="highlight">Análise e desenvolvimento de sitemas</span> e desde já procuro me profissionalizar</p>
+      <p class="description">Aspiro ser um programador <span class="highlight">Full Stack</span>, e amo tecnologia, estudo todos os dias para me tornar cada vez melhor e escrever código de qualidade.</p>
+      <a href="https://github.com/TiagoCos" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>Ver Projetos</span></a>
+      <h2 id="skills-section-title">Minhas Skills</h2>
+     
+      
+      <div id="skills-container">
+        <div class="skills-box">
+          <p class="skills-title">Front-end</p>
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-css3-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
         </div>
-        
-        <div class="project">
-            <h3>Projeto 2</h3>
-            <p>Descrição do Projeto 2.</p>
+        <div class="skills-box">
+          <p class="skills-title">Back-end</p>
+          <i class="devicon-nodejs-plain colored"></i>
+         
         </div>
-        <!-- Adicione mais projetos conforme necessário -->
+        <div class="skills-box">
+          <p class="skills-title">Databases</p>
+          <i class="devicon-postgresql-plain colored"></i>
+          <i class="devicon-mongodb-plain colored"></i>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Front-end Frameworks</p>
+          <i class="devicon-react-plain colored"></i>
+          <i class="devicon-angularjs-plain colored"></i>
+        </div>
+      
+      </div>
     </section>
-    
-    <section id="contact">
-        <h2>Contato</h2>
-        <p>Email: seuemail@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/seuusername">seuusername</a></p>
-    </section>
-
-    <script src="script.js"></script>
+  </main>
+  <!-- Ion Icons -->
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>
