@@ -166,10 +166,8 @@
     margin-top: 25px;
 
     padding: 25px;
-    background: rgba(225, 225, 225, 0.15);
-    backdrop-filter: blur(25px);
-    border: 1px solid #0f959c;
-    border-radius: 20px;
+  
+    border-radius: 5px;
   }
   
   .skills-box {
